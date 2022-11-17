@@ -1,0 +1,74 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+
+.bg{
+    background-color: #f6f0ff;
+    padding: 40px;
+
+}
+
+#dark .bg{
+    color: white;
+    background-color: #000;
+}
+
+.banner p{
+    width: 200px;
+}
+
+.banner p:last-child{
+    text-align: right;
+}
+
+.userImage img{
+    border-radius: 100px;
+   
+}
+
+.userName{
+    /* background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+                inset -20px -20px 60px #ffffff;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px; */
+    font-weight: 800;
+
+}
+
+.userImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.userContent{
+    text-align: center;
+}
+
+.listUserFeed{
+    display: flex;
+    justify-content: center;
+}
+
+.viewToggle{
+    display: flex;
+    font-size: 24px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#light .userPage{
+    background-color: white;
+}
+
+#dark{
+    background-color: black;
+}
